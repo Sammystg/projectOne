@@ -63,6 +63,22 @@ img {
     gap: 20px;
 }
 
+.prodDetails {
+    display: flex;
+    // flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+// .prodNamePrice {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+.prodDetails img {
+    height: 2rem;
+    width: 2rem;
+}
+
 button {
     // might need to be more specific in button name later :)
     display: block;
@@ -77,7 +93,6 @@ button {
     flex-basis: 12%;
     justify-content: center;
 }
-
 
 
 
