@@ -25,13 +25,28 @@
 // Body text (lorem ipsum, View All)
 // Poppins, Regular (400)
 // Body text (50% 0ff)
-// Poppins, Bold (700
+// Poppins, Bold (700)
+
+// font-family: 'Poppins', sans-serif;
+
+// GENERIC STYLES
+
+html {
+    font-size: 62.5%
+}
 
 // HEADER STYLES
-
 img {
     width: 200px;
 }
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 6rem;
+}
+
 
 
 // SECOND SECTION STYLES
@@ -75,8 +90,9 @@ img {
 // }
 
 .prodDetails img {
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 35px;
 }
 
 button {
@@ -86,6 +102,20 @@ button {
 }
 
 // SOFA SALE SECTION STYLES
+
+#sofaImg1 {
+    background-image: url(../assets/vert1.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+#sofaImg2 {
+    background-image: url(../assets/vert2.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 600px;
+}
 
 // How do I size pitures again? and get text on photos..
 .sofaSale div {
