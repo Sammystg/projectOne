@@ -117,13 +117,32 @@ button {
     width: 600px;
 }
 
-// How do I size pitures again? and get text on photos..
-.sofaSale div {
+.sofaSale {
     display: flex;
-    flex-basis: 12%;
+    gap: 25px;
     justify-content: center;
 }
 
+// INSTAGRAM GALLERY STYLES
+.instagram h2 {
+    margin-top: 300px;
+    text-align: center;
+}
 
+.instagram p {
+    text-align: center;
+}
+
+.instaGallery {
+    display: flex;
+    // justify-content: space-between;
+    gap: 20px;
+    width: calc(20% - 5px);
+}
+
+.instaGallery img {
+    flex-basis: ;
+
+}
 
 
