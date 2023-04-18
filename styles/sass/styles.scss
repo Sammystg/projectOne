@@ -65,10 +65,10 @@ h1 {
 }
 
 // FEATURED SECTION STYLES
-
+// Why is this section not centered?? (more white space on right)
 .wrapper {
     max-width: 1200px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -135,14 +135,46 @@ button {
 
 .instaGallery {
     display: flex;
-    // justify-content: space-between;
-    gap: 20px;
-    width: calc(20% - 5px);
+    justify-content: space-between;
+    gap: 5px;
+    width: calc(100% - 0px);
+    // How to make images not squish when making screen smaller?
 }
 
-.instaGallery img {
-    flex-basis: ;
+.instaGallery div {
+    width: calc(20% - 0px);
+}
 
+// .instaGallery img {
+//     width: auto;
+// }
+
+
+// FOOTER SECTION STYLES
+.footerNovas img {
+    height: 2rem;
+    width: 10rem;
+}
+
+footer img {
+    // how to make space between icon and text??
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+footer li {
+    list-style: none;
+}
+
+.socialIcons img {
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 
