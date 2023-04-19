@@ -228,7 +228,6 @@ template {
 
 nav {
   display: flex;
-  background-color: red;
 }
 
 a {
@@ -237,4 +236,125 @@ a {
 
 header {
   background-image: url(/assets/home.jpg);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 200px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 6rem;
+}
+
+.sSFlexContainer {
+  display: flex;
+}
+
+.sSFlexContainer div {
+  background-size: cover;
+}
+
+.sSFlexContainer div p {
+  background-color: white;
+  position: absolute;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.featuredFlex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.prodDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prodDetails img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 35px;
+}
+
+button {
+  display: block;
+  margin: auto;
+}
+
+#sofaImg1 {
+  background-image: url(../assets/vert1.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 300px;
+}
+
+#sofaImg2 {
+  background-image: url(../assets/vert2.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 600px;
+}
+
+.sofaSale {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.instagram h2 {
+  margin-top: 300px;
+  text-align: center;
+}
+
+.instagram p {
+  text-align: center;
+}
+
+.instaGallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  width: calc(100% - 0px);
+}
+
+.instaGallery div {
+  width: calc(20% - 0px);
+}
+
+.footerNovas img {
+  height: 2rem;
+  width: 10rem;
+}
+
+footer img {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+footer li {
+  list-style: none;
+}
+
+.socialIcons img {
+  height: 1.5rem;
+  width: 1.5rem;
 }
