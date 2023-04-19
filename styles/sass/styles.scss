@@ -35,23 +35,15 @@ html {
     font-size: 62.5%
 }
 
-// HEADER STYLES
 img {
     width: 200px;
 }
 
-#home li {
-    list-style: none;
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
 }
-
-h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    text-transform: capitalize;
-    font-size: 6rem;
-}
-
-
 
 // SECOND SECTION STYLES
 .sSFlexContainer {
@@ -70,11 +62,6 @@ h1 {
 
 // FEATURED SECTION STYLES
 // Why is this section not centered?? (more white space on right)
-.wrapper {
-    max-width: 1200px;
-    width: 90%;
-    margin: 0 auto;
-}
 
 .featuredFlex {
     display: flex;
