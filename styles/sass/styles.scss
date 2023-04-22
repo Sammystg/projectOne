@@ -61,10 +61,10 @@ img {
 }
 
 // FEATURED SECTION STYLES
-// Why is this section not centered?? (more white space on right)
 
 .featuredFlex {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
 }
