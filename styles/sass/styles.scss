@@ -183,14 +183,15 @@ button {
     background-size: cover;
     // might not need to be relative?
     position: relative;
-    height: 400px;
+    height: 415px;
     width: 300px;
 }
 
 #sofaImg2 {
     background-image: url(../assets/vert2.jpg);
     background-size: cover;
-    height: 400px;
+    position: relative;
+    height: 415px;
     width: 600px;
 }
 
@@ -201,26 +202,59 @@ button {
 }
 
 #ss1 {
+    // text doesn't stay in backfround when smaller
     position: absolute;
-    top: 69%;
+    color: #d7b89c;
+    background-color: #fff;
+    padding: 3px 20px 21px;
+    top: 65%;
     bottom: 50%;
-    right: 40%;
+    right: 29%;
+    font-weight: 500;
+    font-size: medium;
 }
 
 #ss2 {
     position: absolute;
-    top: 73%;
+    top: 70%;
     bottom: 50%;
-    right: 42%;
+    right: 26%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
 }
 
 #ss3 {
     position: absolute;
-    top: 77%;
+    top: 87%;
     bottom: 35%;
-    right: 41%;
+    right: 31%;
+    color: #fff;
+    font-weight: 500;
+    font-size: medium;
 }
 
+#ss4 {
+    // position: absolute;
+    // top: 50%;
+    // bottom: 50%;
+    // right: 37%;
+    display: block;
+    border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 50px; 
+    text-align: center;
+    align-items: center;
+    margin: 60px 140px 0 140px;
+}
+
+span {
+    font-size: large;
+    font-weight: 700;
+}
 // INSTAGRAM GALLERY STYLES
 .instagram h2 {
     margin-top: 300px;
@@ -249,6 +283,26 @@ button {
 
 
 // FOOTER SECTION STYLES
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 100px 100px;
+    margin-top: 80px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerNovas{
+    max-width: 25%;
+}
+
 .footerNovas img {
     height: 2rem;
     width: 10rem;
@@ -261,11 +315,6 @@ footer img {
     width: 1.5rem;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-}
-
 footer li {
     list-style: none;
 }
@@ -274,5 +323,3 @@ footer li {
     height: 1.5rem;
     width: 1.5rem;
 }
-
-
