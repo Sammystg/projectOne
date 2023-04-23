@@ -80,8 +80,7 @@ img {
 .plants p {
     position: absolute;
     bottom: -448px;
-    // not allowing me to add padding to the right?
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
     text-align: center;
     font-size: medium;
     font-weight: 500;
@@ -95,7 +94,7 @@ img {
 .furniture p {
     position: absolute;
     bottom: -418px;
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
     text-align: center;
     font-size: medium;
     font-weight: 500;
@@ -113,14 +112,14 @@ img {
 .decor p {
     position: absolute;
     bottom: -448px;
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
     text-align: center;
     font-size: medium;
     font-weight: 500;
 }
 
 
-// FEATURED SECTION STYLES
+// FEATURED SALE SECTION STYLES
 
 .featuredSection h2 {
     // Hos to get the semi underline??
@@ -137,10 +136,21 @@ img {
     gap: 20px;
 }
 
+
 .prodDetails {
     display: flex;
     // flex-wrap: nowrap;
     justify-content: space-between;
+}
+
+.prodDetails h4 {
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.prodDetails p {
+    font-size: small;
 }
 
 // .prodNamePrice {
@@ -149,15 +159,21 @@ img {
 // }
 
 .prodDetails img {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 3rem;
+    width: 3rem;
     margin: 35px;
 }
 
 button {
     // might need to be more specific in button name later :)
     display: block;
-    margin: auto;
+    margin: 20px auto 80px;
+    padding: 13px 30px;
+    border: 2px solid #666;
+    background-color: #fff;
+    text-align: center;
+    font-size: medium;
+
 }
 
 // SOFA SALE SECTION STYLES
@@ -165,6 +181,8 @@ button {
 #sofaImg1 {
     background-image: url(../assets/vert1.jpg);
     background-size: cover;
+    // might not need to be relative?
+    position: relative;
     height: 400px;
     width: 300px;
 }
@@ -180,6 +198,27 @@ button {
     display: flex;
     gap: 25px;
     justify-content: center;
+}
+
+#ss1 {
+    position: absolute;
+    top: 69%;
+    bottom: 50%;
+    right: 40%;
+}
+
+#ss2 {
+    position: absolute;
+    top: 73%;
+    bottom: 50%;
+    right: 42%;
+}
+
+#ss3 {
+    position: absolute;
+    top: 77%;
+    bottom: 35%;
+    right: 41%;
 }
 
 // INSTAGRAM GALLERY STYLES
