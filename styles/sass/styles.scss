@@ -1,4 +1,4 @@
-@use "./partials/variables";
+@use "./partials/variables" as *;
 @use "./partials/setup";
 @use "./partials/header";
 @use "./partials/footer";
@@ -129,7 +129,7 @@ img {
 #sale .saleTag {
     color: #fff;
     position: absolute;
-    background-color: #eba6aa;
+    background-color: $Pink;
     bottom: 320px;
     padding: 5px;
     text-transform: uppercase;
@@ -141,9 +141,9 @@ img {
 }
 
 #new .newTag {
-    color: #fff;
+    color: $White;
     position: absolute;
-    background-color: #88cce2;
+    background-color: $Blue;
     bottom: 320px;
     padding: 5px;
     text-transform: uppercase;
@@ -314,4 +314,60 @@ span {
 }
 
 // CONTACT PAGE STYLES
+.contactNav li:hover {
+    text-decoration: underline;
+}
+.contactUs {
+    background-image: url(../assets/contact-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding: 50px;
+}
+
+.contactUs .wrapper {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    h2 {
+    font-weight: 500;
+    font-size: 40px;
+    }
+    // padding: auto 0;
+}
+
+.contactForm input {
+    background-color: $White;
+    border: none;
+    border-bottom: 1px solid $DGrey;
+    color: $DGrey;
+    width: 25%;
+} 
+
+
+input[type=text] {
+    color: $LGrey;
+}
+
+input[id=name] {
+    padding-bottom: 10px;
+}
+
+input[id=email] {
+    padding-bottom: 10px;
+}
+
+input[id=yourMessage] {
+    padding-bottom: 30px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    border: 1px solid $DGrey;
+    color: $DGrey;
+    padding: 8px 25px;
+    max-width: 10%;
+}
+
 
