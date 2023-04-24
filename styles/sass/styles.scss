@@ -1,6 +1,7 @@
+@use "./partials/variables";
 @use "./partials/setup";
 @use "./partials/header";
-@use "./partials/variables";
+@use "./partials/footer";
 
 
 // Style Guide - Novas
@@ -312,60 +313,5 @@ span {
     width: calc(20% - 0px);
 }
 
-// .instaGallery img {
-//     width: auto;
-// }
+// CONTACT PAGE STYLES
 
-
-// FOOTER SECTION STYLES
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 100px 160px;
-    margin-top: 80px;
-    line-height: 1.8;
-}
-
-footer h3 {
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: -6px;
-}
-
-footer ul {
-    padding: 0;
-}
-
-footer .wrapper {
-    display: flex;
-    justify-content: space-around;
-}
-
-.footerNovas{
-    max-width: 25%;
-}
-
-.footerNovas img {
-    height: 2rem;
-    width: 10rem;
-}
-
-footer img {
-    display: inline-block;
-    height: 1.5rem;
-    width: 1.5rem;
-}
-
-footer li {
-    list-style: none;
-}
-
-.socialIcons img {
-    height: 1.5rem;
-    width: 1.5rem;
-    margin-right: 10px;
-}
-
-.footerForm {
-    border-bottom: 1px solid #fff;
-}
