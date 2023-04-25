@@ -1,14 +1,16 @@
+@use "variables" as *;
+
 // FOOTER SECTION STYLES
 footer {
     background-color: #333;
     color: #fff;
-    padding: 100px 160px;
+    padding: 100px 0px;
     margin-top: 80px;
     line-height: 1.8;
 }
 
 footer h3 {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
     margin-top: -6px;
 }
@@ -19,7 +21,8 @@ footer ul {
 
 footer .wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    // margin: 0px;
 }
 
 .footerNovas{

@@ -84,7 +84,7 @@ img {
     bottom: -448px;
     padding: 10px 20px 10px 10px;
     text-align: center;
-    font-size: medium;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
@@ -98,7 +98,7 @@ img {
     bottom: -418px;
     padding: 10px 20px 10px 10px;
     text-align: center;
-    font-size: medium;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
@@ -116,7 +116,7 @@ img {
     bottom: -448px;
     padding: 10px 20px 10px 10px;
     text-align: center;
-    font-size: medium;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
@@ -152,7 +152,7 @@ img {
 
 .featuredSection h2 {
     // Hos to get the semi underline??
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 500;
     text-align: center;
     padding-top: 60px;
@@ -174,13 +174,13 @@ img {
 }
 
 .prodDetails h4 {
-    font-size: medium;
+    font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .prodDetails p {
-    font-size: small;
+    font-size: 1.3rem;
 }
 
 // .prodNamePrice {
@@ -202,7 +202,7 @@ button {
     border: 2px solid #666;
     background-color: #fff;
     text-align: center;
-    font-size: medium;
+    font-size: 1.6rem;
 
 }
 
@@ -211,7 +211,6 @@ button {
 #sofaImg1 {
     background-image: url(../assets/vert1.jpg);
     background-size: cover;
-    // might not need to be relative?
     position: relative;
     height: 415px;
     width: 300px;
@@ -241,7 +240,7 @@ button {
     bottom: 50%;
     right: 29%;
     font-weight: 500;
-    font-size: medium;
+    font-size: 1.6rem;
 }
 
 #ss2 {
@@ -251,7 +250,7 @@ button {
     right: 26%;
     color: #fff;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 3.5rem;
 }
 
 #ss3 {
@@ -261,7 +260,7 @@ button {
     right: 31%;
     color: #fff;
     font-weight: 500;
-    font-size: medium;
+    font-size: 1.6rem;
 }
 
 #ss4 {
@@ -270,19 +269,19 @@ button {
     // bottom: 50%;
     // right: 37%;
     display: block;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid $White;
+    color: $White;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px 50px; 
     text-align: center;
     align-items: center;
-    margin: 60px 140px 0 140px;
+    margin: 36px 140px 0 140px;
 }
 
 span {
-    font-size: large;
+    font-size: 5.0rem;
     font-weight: 700;
 }
 // INSTAGRAM GALLERY STYLES
@@ -290,7 +289,7 @@ span {
     margin-top: 220px;
     text-align: center;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 .instagram p {
@@ -332,7 +331,7 @@ span {
     // justify-content: center;
     h2 {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 4.0rem;
     }
     // padding: auto 0;
 }
@@ -369,5 +368,3 @@ input[type=submit] {
     padding: 8px 25px;
     max-width: 10%;
 }
-
-
