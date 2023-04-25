@@ -85,3 +85,22 @@ button {
     font-size: 1.6rem;
 
 }
+
+@media (max-width: 920px) {
+    .featuredFlex {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .featuredFlex div {
+        width: 40%;
+    }
+}
+
+@media (max-width: 420px) {
+    .featuredFlex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
