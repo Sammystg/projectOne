@@ -13,7 +13,8 @@
 </head>
 <body>
     <!-- HEADER SECTION -->
-    <header id="home">
+    <header class="homeSection" id="home">
+        <div class="wrapper">
         <nav>
             <div class="navNovas">
                 <img src="./assets/logo-black.png" alt="novas logo in black">
@@ -21,34 +22,35 @@
             <ul>
                 <li><a href="#home">home</a></li>
                 <li><a href="#blog">blog</a></li>
-                <li><a href="#contact">contact us</a></li>
+                <li><a href="contact.html">contact us</a></li>
             </ul>
             <div class="checkout">
                 <img src="./assets/icons/shopping-cart-black-icon.png" alt="checkout bag button">
             </div>
         </nav>
-        <div class="textContainer">
-            <h1>novas boutique shop</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero culpa ducimus harum architecto tempore exercitationem. In nihil natus, ut corrupti voluptatum et, aliquam ipsam iure, hic quam aperiam tempora sit!</p>
+        </div>
+        <div class="headerContainer">
+            <div class="textContainer">
+                <h1>NOVAS<br>boutique<br>shop</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero culpa ducimus harum architecto tempore exercitationem. In nihil natus, ut corrupti voluptatum et, aliquam ipsam iure, hic quam aperiam tempora sit!</p>
+            </div>
         </div>
     </header>
+    <!-- SECOND SECTION -->
     <main>
         <section class="secondSection">
             <div class="sSFlexContainer">
                 <div class="plants">
-                    <img src="./assets/cat-1.jpg" alt="">
+                    <img src="./assets/cat-1.jpg" alt="Picture of a monstera plant sitting on table">
                     <p>- Plants</p>
-
                 </div>
                 <div class="furniture">
-                    <img src="./assets/cat-2.jpg" alt="" srcset="">
+                    <img src="./assets/cat-2.jpg" alt="picture of a kitchen table display">
                     <p>- Furniture</p>
-
                 </div>
                 <div class="decor">
-                    <img src="./assets/cat-3.jpg" alt="">
+                    <img src="./assets/cat-3.jpg" alt="Picture of a mirror over a vanity">
                     <p>- Decoration</p>
-
                 </div>
             </div>
         </section>
@@ -58,8 +60,8 @@
             <div class="wrapper">
                 <h2>Featured Sale</h2>
                 <div class="featuredFlex">
-                    <div>
-                        <img src="./assets/prod-1.jpg" alt="">
+                    <div id="sale">
+                        <img src="./assets/prod-1.jpg" alt="Cute chair on sale for $22">
                         <div class="prodDetails">
                             <div class="prodNamePrice">
                                 <h4>Malm Chair</h4>
@@ -69,9 +71,10 @@
                                 <img src="./assets/icons/shopping-cart-black-icon.png" alt="">
                             </div>
                         </div>
+                        <p class="saleTag">sale</p>
                     </div>
                     <div>
-                        <img src="./assets/prod-2.jpg" alt="">
+                        <img src="./assets/prod-2.jpg" alt="mint green collapsible table">
                         <div class="prodDetails">
                             <div class="prodNamePrice">
                                 <h4>Pendant Lamp</h4>
@@ -82,8 +85,8 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <img src="./assets/prod-3.jpg" alt="">
+                    <div id="new">
+                        <img src="./assets/prod-3.jpg" alt="a small coffee/side table">
                         <div class="prodDetails">
                             <div class="prodNamePrice">
                                 <h4>Magnolia Dream</h4>
@@ -93,21 +96,22 @@
                                 <img src="./assets/icons/shopping-cart-black-icon.png" alt="">
                             </div>
                         </div>
+                        <p class="newTag">new</p>
                     </div>
                     <div>
-                        <img src="./assets/prod-4.jpg" alt="">
+                        <img src="./assets/prod-4.jpg" alt="padded shair with wood frame">
                         <div class="prodDetails">
                             <div class="prodNamePrice">
                                 <h4>Malm Chair</h4>
                                 <p>$45</p>
                             </div>
                             <div>
-                                <img src="./assets/icons/shopping-cart-black-icon.png" alt="">
+                                <img src="./assets/icons/shopping-cart-black-icon.png" alt="elephant wood decor">
                             </div>
                         </div>
                     </div>
                     <div>
-                        <img src="./assets/prod-5.jpg" alt="">
+                        <img src="./assets/prod-5.jpg" alt="hanging pendant ceiling lamp">
                         <div class="prodDetails">
                             <div class="prodNamePrice">
                                 <h4>Pendant Lamp</h4>
@@ -119,7 +123,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="./assets/prod-6.jpg" alt="">
+                        <img src="./assets/prod-6.jpg" alt="cream colored ecorative pillow with black detail">
                         <div class="prodDetails">
                             <div class="prodNamePrice">
                                 <h4>Candle</h4>
@@ -131,7 +135,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="./assets/prod-7.jpg" alt="">
+                        <img src="./assets/prod-7.jpg" alt="frilled edge patterend throw blanked in cream, peach, green, and blue">
                         <div class="prodDetails">
                             <div class="prodNameDetails">
                                 <h4>Lorem Ipsum</h4>
@@ -143,7 +147,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="./assets/prod-8.jpg" alt="">
+                        <img src="./assets/prod-8.jpg" alt="wooden elephant decoration">
                         <div class="prodDetails">
                             <div class="prodNamePrice">
                                 <h4>Pendant Lamp</h4>
@@ -155,7 +159,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="./assets/prod-9.jpg" alt="">
+                        <img src="./assets/prod-9.jpg" alt="single wick candle in pink and grey tin">
                         <div class="prodDetails">
                             <div class="prodNamePrice">
                                 <h4>Pendant Lamp</h4>
@@ -167,7 +171,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="./assets/prod-10.jpg" alt="">
+                        <img src="./assets/prod-10.jpg" alt="light bulb decoration with plant inside">
                         <div class="prodDetails">
                             <div class="prodNamePrice">
                                 <h4>Pendant Lamp</h4>
@@ -189,10 +193,10 @@
                 <!-- <div><img src="./assets/vert1.jpg" alt=""> -->
                 <p id="ss1">SALE UP TO</p>
                 <p id="ss2">50% OFF</p>
-                <p id="ss3">Shop Now</p>
+                <p id="ss3">Shop Now → </p>
             </div>
             <div id="sofaImg2">
-                <p id="ss4">Get 30% off on Elisa Sofa collection</p>
+                <p id="ss4"> Get<span> 30% </span> off<br> on Elisa Sofa collection</p>
             </div>
         </section>
 
@@ -202,11 +206,11 @@
                 <h2>Follow Instagram</h2>
                 <p>@Novas_shop</p>
                 <div class="instaGallery">
-                    <div><img src="./assets/ig1.jpg" alt=""></div>
-                    <div><img src="./assets/ig2.jpg" alt=""></div>
-                    <div><img src="./assets/ig3.jpg" alt=""></div>
-                    <div><img src="./assets/ig4.jpg" alt=""></div>
-                    <div><img src="./assets/ig5.jpg" alt=""></div>
+                    <div><img src="./assets/ig1.jpg" alt="round bathroom mirror reflecting tile bathrum and palm plant"></div>
+                    <div><img src="./assets/ig2.jpg" alt="brown wicker bench infront of white wall shelving"></div>
+                    <div><img src="./assets/ig3.jpg" alt="straw backet holding palm leaves sitting on windowsill"></div>
+                    <div><img src="./assets/ig4.jpg" alt="golden retreaver peering in through front door window with white buffet and hutch beside door"></div>
+                    <div><img src="./assets/ig5.jpg" alt="grey material chairs around conference table"></div>
                 </div>
             </div>
         </section>
@@ -214,6 +218,7 @@
 
     <!-- FOOTER SECTION -->
     <footer>
+        <div class="wrapper">
         <div class="footerNovas">
             <img src="./assets/logo-white.png" alt="Novas logo in black">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt non consectetur assumenda mollitia dolores officia doloribus cum atque dicta quasi?</p>
@@ -226,30 +231,30 @@
         <div class="contact">
             <h3>Contact</h3>
             <ul> 
-                <li><img src="./assets/icons/address.svg" alt="">&emsp;No 40 Baria Street</li>
-                <li><img src="./assets/icons/telephone.svg" alt="">&emsp;156-366-6666</li>
-                <li><img src="./assets/icons/email.svg" alt="">&emsp;  cool@example.com</li>
-                <li><img src="./assets/icons/globe.svg" alt="">&emsp; www.novas.com</li>
+                <li><img src="./assets/icons/address.svg" alt="house icon">&emsp;No 40 Baria Street</li>
+                <li><img src="./assets/icons/telephone.svg" alt="phone icon">&emsp;156-366-6666</li>
+                <li><img src="./assets/icons/email.svg" alt="letter icon">&emsp;  cool@example.com</li>
+                <li><img src="./assets/icons/globe.svg" alt="globe icon">&emsp; www.novas.com</li>
             </ul>
         </div>
         <div class="profile">
             <h3>Profile</h3>
             <ul>
-                <li><img src="./assets/icons/user.svg" alt="">&emsp; My Account</li>
-                <li><img src="./assets/icons/checkout.svg" alt="">&emsp; Checkout</li>
-                <li><img src="./assets/icons/tracking.svg" alt="">&emsp; Order Tracking</li>
-                <li><img src="./assets/icons/support.svg" alt="">&emsp; Help & Support</li>
+                <li><img src="./assets/icons/user.svg" alt="person icon">&emsp; My Account</li>
+                <li><img src="./assets/icons/checkout.svg" alt="shopping cart icon">&emsp; Checkout</li>
+                <li><img src="./assets/icons/tracking.svg" alt="eye icon">&emsp; Order Tracking</li>
+                <li><img src="./assets/icons/support.svg" alt="information icon">&emsp; Help & Support</li>
             </ul>
         </div>
         <div class="newsletter">
             <h3>Newsletter</h3>
             <p>Subscribe to our newsletter</p>
-            <form>
+            <form class="footerForm">
                 <input type="email" placeholder="Your e-mail..."required>
             </form>
             <p>@ 2023 Novas.</p>
         </div>
-
+        </div>
     </footer>
 </body>
 </html>
