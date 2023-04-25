@@ -78,3 +78,15 @@ span {
     font-size: 5.0rem;
     font-weight: 700;
 }
+
+@media (max-width: 800px) {
+    #sofaImg1 {
+        display: none;
+    }
+    #sofaImg2 {
+        width: 60%;
+    }
+    #sofaImg2 p, span {
+        font-size: 2rem;
+    }
+}

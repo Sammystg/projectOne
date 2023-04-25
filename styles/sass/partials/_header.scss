@@ -91,23 +91,22 @@ h1 {
 // MEDIA QUERIES
 
 // Portrait tablet and small desktops
-@media (max-width: 940px) {
-    header{
-    border: 2px solid red;
-    }
-}
 
-@media (max-width: 550px) {
-    header{
-    border: 2px solid purple;
+@media (max-width: 600px) {
+    .navNovas, .checkout{
+        display: none;
     }
     nav {
-        flex-direction: column;
-        text-align: left;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
     }
     nav ul {
-        flex-direction: column;
-        text-align: left;
+        flex-direction: row;
+        align-items: center;   
+    }
+    .textContainer {
+        margin-left: 5rem;
     }
 }
 
