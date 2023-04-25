@@ -1,0 +1,58 @@
+@use "variables" as *;
+
+// CONTACT PAGE STYLES
+.contactNav li:hover {
+    text-decoration: underline;
+}
+.contactUs {
+    background-image: url(../assets/contact-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding: 50px;
+}
+
+.contactUs .wrapper {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    h2 {
+    font-weight: 500;
+    font-size: 4.0rem;
+    }
+    // padding: auto 0;
+}
+
+.contactForm input {
+    background-color: $White;
+    border: none;
+    border-bottom: 1px solid $DGrey;
+    color: $DGrey;
+    width: 25%;
+} 
+
+
+input[type=text] {
+    color: $LGrey;
+}
+
+input[id=name] {
+    padding-bottom: 10px;
+}
+
+input[id=email] {
+    padding-bottom: 10px;
+}
+
+input[id=yourMessage] {
+    padding-bottom: 30px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    border: 1px solid $DGrey;
+    color: $DGrey;
+    padding: 8px 25px;
+    max-width: 10%;
+}

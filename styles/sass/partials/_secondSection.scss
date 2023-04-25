@@ -1,0 +1,69 @@
+@use "variables" as *;
+
+// SECOND SECTION STYLES
+.sSFlexContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.sSFlexContainer div {
+    background-size: cover;
+
+}
+
+.sSFlexContainer div p {
+    background-color: #fff;
+    position: absolute;
+}
+
+.plants {
+    padding-top: 30px;
+}
+
+.plants img {
+    height: 350px;
+    width: 250px;
+}
+
+.plants p {
+    position: absolute;
+    bottom: -448px;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.furniture img {
+    height: 350px;
+    width: 250px;
+}
+
+.furniture p {
+    position: absolute;
+    bottom: -418px;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.decor {
+    padding-top: 30px; 
+}
+
+.decor img {
+    height: 350px;
+    width: 250px;
+}
+
+.decor p {
+    position: absolute;
+    bottom: -448px;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+}

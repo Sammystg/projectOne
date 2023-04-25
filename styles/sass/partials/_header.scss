@@ -88,3 +88,26 @@ h1 {
     margin-top: 0px;
 }   
 
+// MEDIA QUERIES
+
+// Portrait tablet and small desktops
+@media (max-width: 940px) {
+    header{
+    border: 2px solid red;
+    }
+}
+
+@media (max-width: 550px) {
+    header{
+    border: 2px solid purple;
+    }
+    nav {
+        flex-direction: column;
+        text-align: left;
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
