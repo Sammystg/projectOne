@@ -28,7 +28,7 @@
     // text doesn't stay in backfround when smaller
     position: absolute;
     color: #d7b89c;
-    background-color: #fff;
+    background-color: $White;
     padding: 3px 20px 21px;
     top: 65%;
     bottom: 50%;
@@ -42,7 +42,7 @@
     top: 70%;
     bottom: 50%;
     right: 26%;
-    color: #fff;
+    color: $White;
     font-weight: bold;
     font-size: 3.5rem;
 }
@@ -52,16 +52,12 @@
     top: 87%;
     bottom: 35%;
     right: 31%;
-    color: #fff;
+    color: $White;
     font-weight: 500;
     font-size: 1.6rem;
 }
 
 #ss4 {
-    // position: absolute;
-    // top: 50%;
-    // bottom: 50%;
-    // right: 37%;
     display: block;
     border: 1px solid $White;
     color: $White;

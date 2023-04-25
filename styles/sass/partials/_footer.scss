@@ -2,8 +2,8 @@
 
 // FOOTER SECTION STYLES
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: $DGrey;
+    color: $White;
     padding: 100px 0px;
     margin-top: 80px;
     line-height: 1.8;
@@ -22,7 +22,6 @@ footer ul {
 footer .wrapper {
     display: flex;
     justify-content: space-between;
-    // margin: 0px;
 }
 
 .footerNovas{
@@ -51,8 +50,8 @@ footer li {
 }
 
 .footerForm input {
-    background-color: #333;
+    background-color: $DGrey;
     border: none;
-    border-bottom: 1px solid #fff;
-    color: #fff;
+    border-bottom: 1px solid $White;
+    color: $White;
 }

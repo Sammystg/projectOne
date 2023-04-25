@@ -25,11 +25,11 @@ header .wrapper {
 }
 
 nav {
-    // Why isn't my background colour going all the way across the page?
+    // Struggled to get nav background color span across entire page... but working on contact page.
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: $White;
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav ul {
 }
 
 a {
-    color: #333; 
+    color: $DGrey; 
     text-decoration: none;
 }
 
@@ -89,9 +89,6 @@ h1 {
 }   
 
 // MEDIA QUERIES
-
-// Portrait tablet and small desktops
-
 @media (max-width: 600px) {
     .navNovas, .checkout{
         display: none;
